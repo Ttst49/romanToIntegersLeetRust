@@ -19,8 +19,6 @@ pub fn roman_to_int(s: String) -> i32 {
             _ => 0,
         }
     }).sum();
-
-    println!("{}",total);
     total
 }
 
